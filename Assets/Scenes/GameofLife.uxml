@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/GameOfLife.uss?fileID=7433441132597879392&amp;guid=951a69fdb09701441be6075947130f2f&amp;type=3#GameOfLife" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: flex-end; align-self: flex-end; align-items: flex-end; flex-direction: row-reverse;">
+        <ui:Button text="Next Generation" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Generation" class="button" />
+        <ui:Button text="Repeat Until Death" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Repeat" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
